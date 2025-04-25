@@ -6,7 +6,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      vmImage: ubuntu-latest
+      name: Hosted Ubuntu 24
     steps:
     - task: CmdLine@2
       displayName: Install Newman
