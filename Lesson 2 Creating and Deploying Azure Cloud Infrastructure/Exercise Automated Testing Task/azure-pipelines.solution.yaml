@@ -6,7 +6,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      name: myLinuxAgentVM
+      name: Azure Pipelines
     steps:
     - task: CmdLine@2
       displayName: Install Newman
